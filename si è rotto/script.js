@@ -3,6 +3,8 @@ const confermaPulsante = document.getElementById("conferma");
 const videoPlayer = document.getElementById("videoPlayer");
 const feedbackElement = document.getElementById("feedback");
 
+
+
 confermaPulsante.addEventListener("click", function() {
     if (tendina.value === "opzione1"){
 		feedbackElement.textContent = "No frate sei morto";
@@ -50,7 +52,10 @@ confermaPulsante.addEventListener("click", function() {
 
 
         tendina.disabled = true; // Disabilita la tendina
-        confermaPulsante.disabled = true; // Disabilita il pulsante "Conferma"
+        conferma.disabled = true; // Disabilita il pulsante "Conferma"
+
+	window.scrollBy(0, 200);
+
     }
 });
 
