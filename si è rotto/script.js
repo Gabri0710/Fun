@@ -30,12 +30,6 @@ confermaPulsante.addEventListener("click", function() {
 	videoPlayer4.style.display = "block"; // Mostra il video player
 	videoPlayer5.style.display = "block"; // Mostra il video player
 	videoPlayer6.style.display = "block"; // Mostra il video player
-	videoPlayer7.style.display = "block"; // Mostra il video player
-	videoPlayer8.style.display = "block"; // Mostra il video player
-	videoPlayer9.style.display = "block"; // Mostra il video player
-	videoPlayer10.style.display = "block"; // Mostra il video player
-	videoPlayer11.style.display = "block"; // Mostra il video player
-	videoPlayer12.style.display = "block"; // Mostra il video player
         
 	videoPlayer1.play(); // Avvia la riproduzione del video
         videoPlayer2.play(); // Avvia la riproduzione del video
@@ -43,12 +37,6 @@ confermaPulsante.addEventListener("click", function() {
 	videoPlayer4.play(); // Avvia la riproduzione del video
         videoPlayer5.play(); // Avvia la riproduzione del video
 	videoPlayer6.play(); // Avvia la riproduzione del video
-	videoPlayer7.play(); // Avvia la riproduzione del video
-        videoPlayer8.play(); // Avvia la riproduzione del video
-	videoPlayer9.play(); // Avvia la riproduzione del video
-	videoPlayer10.play(); // Avvia la riproduzione del video
-        videoPlayer11.play(); // Avvia la riproduzione del video
-	videoPlayer12.play(); // Avvia la riproduzione del video
 
 
         tendina.disabled = true; // Disabilita la tendina
