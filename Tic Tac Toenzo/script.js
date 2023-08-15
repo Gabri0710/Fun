@@ -11,9 +11,12 @@ cells.forEach(cell => {
       cell.textContent = currentPlayer;
       if (checkWinner(currentPlayer)) {
 	resultText.textContent = "Hai vinto!";
-	videoPlayer.style.display = "block";
-	videoPlayer.play();
-	window.scrollBy(0, 400);
+	setTimeout(function() {
+  		videoPlayer.style.display = "block";
+		videoPlayer.play();
+		window.scrollBy(0, 400);
+	}, 500);
+	
         return;
       }
       currentPlayer = 'O';
