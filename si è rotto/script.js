@@ -1,6 +1,6 @@
 const tendina = document.getElementById("rispostaTendina");
 const confermaPulsante = document.getElementById("conferma");
-const videoPlayer = document.getElementById("videoPlayer");
+const videoPlayer = document.getElementById("videoPlayer1");
 const feedbackElement = document.getElementById("feedback");
 
 
@@ -24,19 +24,9 @@ confermaPulsante.addEventListener("click", function() {
 	
     else if (tendina.value === "opzione3") {
 	feedbackElement.textContent = "SEI VIVO";
-        videoPlayer1.style.display = "block"; // Mostra il video player
-	videoPlayer2.style.display = "block"; // Mostra il video player
-	videoPlayer3.style.display = "block"; // Mostra il video player
-	videoPlayer4.style.display = "block"; // Mostra il video player
-	videoPlayer5.style.display = "block"; // Mostra il video player
-	videoPlayer6.style.display = "block"; // Mostra il video player
+        videoPlayer.style.display = "block"; // Mostra il video player
         
-	videoPlayer1.play(); // Avvia la riproduzione del video
-        videoPlayer2.play(); // Avvia la riproduzione del video
-	videoPlayer3.play(); // Avvia la riproduzione del video
-	videoPlayer4.play(); // Avvia la riproduzione del video
-        videoPlayer5.play(); // Avvia la riproduzione del video
-	videoPlayer6.play(); // Avvia la riproduzione del video
+	videoPlayer.play(); // Avvia la riproduzione del video
 
 
         tendina.disabled = true; // Disabilita la tendina
